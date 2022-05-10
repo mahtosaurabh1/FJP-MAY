@@ -12,13 +12,12 @@ body{
     background-color: black;
     display: flex;
     align-items: center;
-    border: solid 2px red;
 }
 
 .toolbox-priority-cont{
     height: 3rem;
     background-color: beige;
-    width: 24rem;
+    width: 18rem;
     margin-left: 5rem;
     display: flex;
     align-items: center;
@@ -42,25 +41,17 @@ body{
 
 .lightpink{
     background-color:lightpink;
-    width: 5rem;
-    height: 2rem;
 }
 
 .blue{
-    background-color:lightblue;
-    width: 5rem;
-    height: 2rem;
+    background-color:lightblue
 }
 
 .green{
     background-color:lightgreen;
-    width: 5rem;
-    height: 2rem;
 }
 .black{
-    background-color:black;
-    width: 5rem;
-    height: 2rem;
+    background-color:black
 }
 
 .add-btn{
@@ -71,33 +62,66 @@ body{
     font-size: 1.5rem;
 }
 
-.addcontainer{
-    display: flex;
-    width: 34rem;
-    height: 20rem;
-    margin-left: 25rem;
-    /* margin-top: 5rem; */
+.modal-cont{
+    position: absolute;
+    left: 25vw;
+    top:25vh;
+    background-color: lightgrey;
+    height: 50vh;
+    width: 50vw;
+    display: none;
 }
-.content{
-    background-color: lightcoral;
-    width: 24rem;
-    height: 20rem;
+
+.textarea-cont{
+    outline:none;
+    resize: none;
+    border: none;
+    background-color:lightyellow;
+    height: 100%;
+    width: 75%;
+    font-size: 2rem;
+    padding: 2rem;
 }
-.sidebar{
-    background-color: lightseagreen;
-    width: 10rem;
-    height: 20rem;
-    
-}
-.sidebar{
+
+.priority-color-cont{
+    height: 100%;
+    width: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
-.maincontainer{
-    background-color: blue;
-    width: 95rem;
-    height :36rem;
-    padding-top: 2rem;
+
+.priority-color{
+    height: 3rem;
+    width: 5rem;
+}
+
+.main-cont{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem; 
+}
+
+.ticket-cont{
+    background-color: lightskyblue;
+    height: 10rem;
+    width: 15rem;
+}
+
+.ticket-color{
+    height: 1rem;
+}
+
+.ticket-id{
+    height: 1.5rem;
+    background-color: red;
+}
+
+.task-area{
+    height: calc(100%-1rem-1.5rem);
+    padding: 5px;
+    font-size: 1.25rem;
 }
