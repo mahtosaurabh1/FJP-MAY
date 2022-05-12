@@ -5,33 +5,39 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: #E0DDAA;
 }
 
 .toolbox-cont{
     height: 5rem;
-    background-color: black;
+    background-color: #141E27;
     display: flex;
     align-items: center;
+    position:fixed;
+    width: 100vw;
+    top:0px
 }
 
 .toolbox-priority-cont{
     height: 3rem;
-    background-color: beige;
+    background-color: #EEEDDE;
     width: 18rem;
     margin-left: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border-radius: 2px;
 }
 
 .action-btn-cont{
-    background-color: beige;
+    background-color: #EEEDDE;
     height: 3rem;
     width: 10rem;
     margin-left: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border-radius: 2px;
 }
 
 .color{
@@ -66,7 +72,7 @@ body{
     position: absolute;
     left: 25vw;
     top:25vh;
-    background-color: lightgrey;
+    background-color: #EEEDDE;
     height: 50vh;
     width: 50vw;
     display: none;
@@ -76,11 +82,12 @@ body{
     outline:none;
     resize: none;
     border: none;
-    background-color:lightyellow;
+    background-color:#EEEDDE;
     height: 100%;
     width: 75%;
     font-size: 2rem;
     padding: 2rem;
+    border-right: 2px solid #141E27;
 }
 
 .priority-color-cont{
@@ -97,18 +104,23 @@ body{
     width: 5rem;
 }
 
+.active{
+    border: 5px solid #E0DDAA;
+}
+
 .main-cont{
-    margin-top: 2rem;
+    margin-top: 7rem;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 2rem; 
+    margin-bottom: 2rem;
 }
 
 .ticket-cont{
-    background-color: lightskyblue;
+    background-color: #EEEDDE;
     height: 10rem;
-    width: 15rem;
+    width: 16rem;
 }
 
 .ticket-color{
@@ -117,7 +129,7 @@ body{
 
 .ticket-id{
     height: 1.5rem;
-    background-color: red;
+    background-color: #EEEDDE;
 }
 
 .task-area{
