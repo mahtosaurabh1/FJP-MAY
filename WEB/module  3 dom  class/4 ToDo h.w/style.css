@@ -1,0 +1,74 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: blueviolet;
+}
+.main-cont {
+  display: flex;
+  position: absolute;
+  width: 28rem;
+  height: 33rem;
+  background-color: bisque;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  left: 30rem;
+  top: 6rem;
+}
+.tool-cont {
+  display: flex;
+  position: absolute;
+  background-color: aqua;
+  border-top-left-radius: 2rem;
+  width: 28rem;
+  height: 5rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.addBtn img {
+  position: absolute;
+  top: 31rem;
+  right: 13rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: aquamarine;
+  border-radius: 50%;
+  padding: 2rem;
+}
+.main-cont input {
+  position: absolute;
+  width: 27.8rem;
+  height: 5rem;
+  top: 10rem;
+  font-size: larger;
+}
+.main-cont ul{
+    position: absolute;
+    width: 28rem;
+    height: 5rem;
+    top: 5rem;
+}
+
+li .delete{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+}
+.delete{
+    /* background-color:brown; */
+    width: 28rem;
+    height: 5rem;
+}
+.main-cont ul li{
+    display: flex;
+    border: 2px solid red;
+    align-items: center;
+    width: 28rem;
+    height: 5rem;
+    justify-content: space-between;
+
+}
+.main-cont ul li .delete{
+    padding-left: 22rem;
+}
