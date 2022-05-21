@@ -7,11 +7,6 @@
 // console.log(filteredArr);
 // console.log(arr);
 
-// let sum = arr.reduce(function(prev,ele){
-//     return prev+ele;
-// })
-
-// console.log(sum);
 
 // implement filter
 
