@@ -28,13 +28,36 @@
 
 //JSX -> javascript + html
 
-function Element(){
+function Element1({name="Aman",age}){
     return(
-        <h1>Hello Coder</h1>
+        <div>
+            <h1>Hello {name} Coder</h1>
+            <h3>{age}</h3>
+        </div>
     )
 }
 
-ReactDOM.render(<Element/>,root);
+function Element2({name}){
+    return(
+        <h2>{name} How are you?</h2>
+    )
+}
+
+function Parent(){
+    return(
+        <div>
+        <Element1 name="Dheeraj" age = "23"/>
+        <Element1 name="Bhavesh"/>
+        <Element1 name="Ayush"/>
+        <Element1/>
+        <Element2 name="saurabh"/>
+        <Element1/>
+        <Element2  name ="shubham"/>    
+        </div>
+    )
+}
+
+ReactDOM.render(<Parent/>,root);
 
 </script>
 </html>
