@@ -9,7 +9,7 @@ import { db } from "../firebase"
 
 const VideoCard = (props) => {
     let user = useContext(AuthContext)
-    let [playing, setPlaying] = useState(true);
+    let [playing, setPlaying] = useState(true);  //contorl pause play video
     let [commentBoxOpen, setCommentBox] = useState(false);
     let [currUserComment, setCurrUserComment] = useState("");
     let [comments, setComments] = useState([]);

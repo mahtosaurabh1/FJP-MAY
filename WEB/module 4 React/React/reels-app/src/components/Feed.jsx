@@ -38,9 +38,9 @@ function Feed() {
                     }}
 
                     onChange={(e) => {
-                        let videoObj = e.currentTarget.files[0];
+                        let videoObj = e.currentTarget.files[0]; //0 index pe upload video ka detail  hoga
                         console.log(videoObj)
-                        let { name, size, type } = videoObj
+                        let { name, size, type } = videoObj //video ka detail ,type-extension
                         console.log(size);
                         type = type.split("/")[0];
                         if (type !== "video") {

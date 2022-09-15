@@ -166,13 +166,13 @@ class Fav extends Component {
                             </thead>
                             <tbody>
                                 {
-                                    this.state.movies.map((movieEle) => (
+                                    this.state.movies.map((movieEle,idx) => (
                                         <tr>
                                             <th scope="row"><img style={{ width: "8rem", padding: "1rem" }} src={`https://image.tmdb.org/t/p/original${movieEle.backdrop_path}`} />{movieEle.title}</th>
                                             <td className="text-center">{genreIds[movieEle.genre_ids[0]]}</td>
                                             <td className="text-center">{movieEle.popularity}</td>
                                             <td className="text-center" >{movieEle.vote_average}</td>
-                                            <td className="text-center"><button type="button" className="btn btn-danger">Delete</button></td>
+                                            <td className="text-center"><button type="button" className="btn btn-danger" >Delete</button></td>
                                         </tr>
                                     ))
                                 }

@@ -1,14 +1,14 @@
-import Navbar from './components/navbar';
-import Cart from "./components/cart"
-import Home from './components/home';
+import Navbar from "./components/navbar";
+import Cart from "./components/cart";
+import Home from "./components/home";
 //npm install "react-router-dom@5.3.1"
-import {BrowserRouter as Router,Switch,Route} from "react-router-dom"
-import Preview from './components/preview';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Preview from "./components/preview";
 
 function App() {
   return (
     <>
-    <Router>
+      <Router>
       <Navbar/>
       <Switch>
         <Route path ='/cart'>
@@ -21,7 +21,8 @@ function App() {
           <Home/>
         </Route>
       </Switch>
-    </Router>
+      </Router>
+      
     </>
   );
 }

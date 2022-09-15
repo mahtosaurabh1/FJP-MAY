@@ -1,11 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Todo from './components/Todo.js'
+import Counter from './components/counter';
+import Todo from './components/todo';
+
+// import { BrowserRouter, Routes , Route} from 'react-router-dom';
+
 
 function App() {
-  return (
+    return(
     <>
-    <Todo/>
+     {/* <Counter/> */}
+     <Todo/>
     </>
   );
 }
