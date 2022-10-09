@@ -1,0 +1,38 @@
+.ulist{
+   display: flex;
+}
+li{
+    width: 35%;
+    height: 1.8rem;
+    background-color: violet;
+    color: white;
+    padding: 10px;
+    overflow: scroll;
+    font-size: 2rem;
+}
+.container{
+    margin-left: 25%;
+    margin-top: 0.8rem;
+}
+
+.inputbox{
+    display: flex;
+}
+input{
+    width: 35%;
+    height: 1.8rem;
+    background-color: violet;
+    color: white;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+button{
+    width: 4rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
